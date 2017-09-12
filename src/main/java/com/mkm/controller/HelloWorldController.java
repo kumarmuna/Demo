@@ -11,7 +11,7 @@ public class HelloWorldController {
  
     @RequestMapping(method = RequestMethod.GET)
     public String sayHello(ModelMap model) {
-        model.addAttribute("greeting", "Hello World from");
+        model1.addAttribute("greeting", "Hello World from");
         return "welcome";
     }
  
